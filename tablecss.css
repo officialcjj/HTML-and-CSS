@@ -1,0 +1,30 @@
+table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: grey;
+	color: white;
+}
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: cyan;
+	color: purple;
+}
+ol {
+	list-style-type: circle;
+}
+ul {
+	list-style-type: square;
+}
+#myDIV {
+	animation: mymove 3s infinite;
+}
+@keyframes mymove {
+	10% {text-shadow: 5px 10px 15px purple;}
+}
+#myDIV2 {
+	text-shadow: 1px 1px purple;
+}
