@@ -1,0 +1,18 @@
+.font1 {
+		background-color: black;
+		color: purple;
+		font-size: small;
+		text-decoration: underline;
+		font-weight: 700;
+	}
+.font2 {
+		background-color: grey;
+		color: yellow;
+		font-size: medium;
+	}
+p {
+		color: black;
+		background-color: red;
+		font-size: medium;
+		text-align: center;
+	}
