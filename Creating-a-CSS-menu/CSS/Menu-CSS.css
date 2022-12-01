@@ -26,6 +26,18 @@ body {
     list-style: none;
 }
 
+.menu li {
+    color: #B3B3B3;
+    display: inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid #9D9FA2;
+    border-radius: 1.5px;
+    background-color: #387593;
+    cursor: pointer;
+}
+
 .menu li:hover {
     color: #fff;
     background-color: #5EAFDF;
