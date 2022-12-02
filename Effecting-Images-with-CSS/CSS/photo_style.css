@@ -1,7 +1,7 @@
 .column {
     float: right;
     width: 33.33%;
-    padding: 5px;
+    padding: 1px;
 }
 
 .row::after {
@@ -299,7 +299,6 @@ section {
     padding-top: 350px;
     padding-bottom: 500px;
     color: #fff;
-    z-index: -1;
 }
 
 /*-------------Contact STYLES--------------*/
