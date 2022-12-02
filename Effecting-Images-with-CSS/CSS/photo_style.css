@@ -119,6 +119,7 @@
 }
 
 .white-head {
+    position: relative;
     color: #C9BDAA;
     margin-top: 5%;
     line-height: 30px;
