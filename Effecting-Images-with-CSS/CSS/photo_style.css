@@ -29,6 +29,7 @@ p {
 }
 
 .menu li {
+    width: 300px;
     color: #B3B3B3;
     display: inline-block;
     margin: 0px auto;
