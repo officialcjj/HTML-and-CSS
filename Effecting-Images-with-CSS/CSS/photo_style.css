@@ -37,7 +37,7 @@ p {
     border-radius: 1.5px;
     background-color: #387593;
     position: absolute;
-    top: 50%;
+    top: 0d%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
