@@ -299,6 +299,7 @@ section {
     padding-top: 350px;
     padding-bottom: 500px;
     color: #fff;
+    z-index: -1;
 }
 
 /*-------------Contact STYLES--------------*/
