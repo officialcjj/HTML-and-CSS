@@ -32,10 +32,7 @@ p {
     color: #B3B3B3;
     display: inline-block;
     margin-right: -2px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     padding: 12px 40px;
     border: 1px solid #9D9FA2;
     border-radius: 1.5px;
