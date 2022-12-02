@@ -68,13 +68,6 @@ p {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-}
-
 .photo-label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font: 700 #ffb35c;
