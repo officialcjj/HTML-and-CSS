@@ -17,6 +17,7 @@ p {
     position: absolute;
     width: 100%;
     background-color: #184352;
+    justify-content: center;
 }
 
 .menu {
@@ -36,11 +37,7 @@ p {
     border: 1px solid #9D9FA2;
     border-radius: 1.5px;
     background-color: #387593;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     cursor: pointer;
 }
 
