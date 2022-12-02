@@ -68,7 +68,7 @@ p {
 
 .label {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
@@ -79,7 +79,7 @@ p {
     height: 100%;
     font-size: 22px;
     font-weight: 800;
-    font-family: cursive !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     color: #ffb35c;
 }
 
