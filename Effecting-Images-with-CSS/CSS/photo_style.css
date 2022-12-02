@@ -66,6 +66,10 @@ p {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
+.label {
+    z-index: 3;
+}
+
 .photo-container {
     text-align: center;
     margin: 15px auto;
