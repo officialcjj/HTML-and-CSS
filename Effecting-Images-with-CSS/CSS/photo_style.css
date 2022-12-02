@@ -31,7 +31,7 @@ p {
 .menu li {
     color: #B3B3B3;
     display: inline-block;
-    margin-right: -2px;
+    margin: 0px auto;
     align-items: center;
     position: relative;
     padding: 12px 40px;
