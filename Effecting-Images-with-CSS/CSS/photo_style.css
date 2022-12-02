@@ -74,9 +74,12 @@ p {
     z-index: 3;
 }
 
-.label h3{
+.label p{
+    width: 100%;
+    height: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font: 700 #ffb35c;
+    color: #ffb35c;
+    font-weight: 700;
 }
 
 .photo-container {
