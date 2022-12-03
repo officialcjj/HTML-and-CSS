@@ -1,13 +1,16 @@
 .column {
     float: right;
-    width: 33.33%;
-    padding: 1px;
+    width: 31%;
+    padding: 5px;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+.row>.column {
+    padding: 0 8px;
 }
 
 .clearfix::after,
@@ -26,7 +29,6 @@
     top: 0;
     left: 0;
     height: auto;
-    width: 100%;
 }
 
 /*---------------HEAD--------------*/
@@ -37,7 +39,7 @@
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
+    text-align: center;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
@@ -68,11 +70,10 @@
     content: " ";
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: #184352;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     z-index: 100;
 }
 
@@ -143,7 +144,7 @@
     border-radius: 8px;
     padding: 1px;
     border: 1px solid #021a40;
-    background-color: ff0;
+    background-color: #ff0;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
 }
 
@@ -251,7 +252,7 @@ p {
     padding-bottom: 15px;
 }
 
-text-center {
+.text-center {
     text-align: center;
 }
 
@@ -299,6 +300,7 @@ section {
     padding-top: 350px;
     padding-bottom: 500px;
     color: #fff;
+    z-index: -1;
 }
 
 /*-------------Contact STYLES--------------*/
@@ -312,6 +314,7 @@ section {
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .5);
+    text-align: center;
 }
 
 #contact {
@@ -476,9 +479,10 @@ section {
         width: 970px;
     }
 }
-
+/*
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
+*/
