@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chocolate Cache | Shoppe</title>
+    <link rel="stylesheet" href="./CSS/photo_style.css">
+    <link rel="stylesheet" href="./CSS/lightboxes.css">
+    <script src="JS/One-Page-Website.js" defer></script>
+</head>
+
+<header>
+    <!--NAV-->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>HOME</li></a>
+                    <a href="#gallery"><li>GALLERY</li></a>
+                    <a href="#contact"><li>ORDERS</li></a>
+                </ul>
+            </div>               
+        </div>
+    <!--END NAV-->
+</header>
+
+<body>
+
+<!--HOME-->
+    <body id="home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">Chocolate Cache</span>
+            </div>
+        </div>
+    </body>
+<!--END HOME-->
+
+<!--GALLERY-->
+
+<section id="gallery">
+    <div class="container">
+        <h1>Gallery</h1>
+        <div class="flex-container">
+            <div class="row">
+
+                <!--PHOTO CONTAINER 1-->
+                <div class="column">
+                <div class="photo-container" onclick="openModal();currentSlide(1)">
+                    <div class="photo">
+                            <img src="./Images/white-chocolate.jpg" 
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>White Chocolate</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 1-->
+
+                <!--PHOTO CONTAINER 2-->
+                <div class="column">
+                <div class="photo-container" onclick="openModal();currentSlide(2)">
+                    <div class="photo">
+                            <img src="./Images/dark-chocolate.jpg"
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>Dark Chocolate</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 2-->
+
+                <!--PHOTO CONTAINER 3-->
+                <div class="column">
+                <div class="photo-container" onclick="openModal();currentSlide(3)">
+                    <div class="photo">
+                            <img src="./Images/milk-chocolate.jpg" 
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>Milk Chocolate</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 3-->
+
+                <!--PHOTO CONTAINER 4-->
+                <div class="column">
+                <div class="photo-container" onclick="openModal();currentSlide(4)">
+                    <div class="photo">
+                            <img src="./Images/biscotti-chocolate.jpg"
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>Chocolate Biscotti</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 4-->
+
+                <!--PHOTO CONTAINER 5-->
+                <div class="column">
+                <div class="photo-container" onclick="openModal();currentSlide(5)">
+                    <div class="photo">
+                            <img src="./Images/assorted-chocolate.jpg"
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>Assorted Chocolate</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 5-->
+
+                <!--PHOTO CONTAINER 6-->
+                <div class="column">
+                <div class="photo-container"  onclick="openModal();currentSlide(6)">
+                    <div class="photo">
+                            <img src="./Images/ruby-chocolate.jpg"
+                            class="hover-shadow cursor" alt="*There should be chocolates*">
+                            <div class="label">
+                                <p>Ruby Chocolate</p>
+                            </div>
+                            <div class="photo-overlay">
+                                <h3 class="white-head">Click to Enlarge</h3>
+                                <p>Check out this chocolate!</p>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <!--END PHOTO CONTAINER 6-->
+
+            </div>
+        </div>
+    </div>  
+</section>
+
+<!--END GALLERY-->
+
+<!--ORDERS-->
+    <section id="contact">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Orders</h1>
+                <div class="orders">
+                    <h2>
+                        <span>Chocolates are delicious and stocked in bulk!</span>
+                        <br/>Place your order today!
+                    </h2>
+                    <p class="text-center">
+                        Place your order here:
+                    </p>
+                    <div class="form-order">
+                        <form action="" method="post">
+                            <input class="order" type="text" value="" placeholder="Full Name">
+                            <input class="order" type="text" value="" placeholder="Product(s)/Quantity Desired">
+                            <input class="order" type="text" value="" placeholder="Email">
+                            <input class="order" type="text" value="" placeholder="Full Address">
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="button" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--END ORDERS-->
+
+<!--FOOTER-->
+    <div id="footer">
+        www.chocolatecache.com &nbsp | &copy; 2022
+    </div>
+<!--END FOOTER-->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="./Images/white-chocolate.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="./Images/dark-chocolate.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="./Images/milk-chocolate.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="./Images/biscotti-chocolate.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="./Images/assorted-chocolate.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="./Images/ruby-chocolate.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div> 
+      
+        <div class="modalcolumn" onclick="currentSlide(3)">
+            <img class="demo" src="./Images/milk-chocolate.jpg"
+            style="width:100%" alt="White Chocolate">
+        </div>
+        <div class="modalcolumn" onclick="currentSlide(2)">
+            <img class="demo" src="./Images/dark-chocolate.jpg"
+            style="width:100%" alt="Dark Chocolate">
+        </div>
+        <div class="modalcolumn" onclick="currentSlide(1)">
+            <img class="demo" src="./Images/white-chocolate.jpg"
+            style="width:100%" alt="Milk Chocolate">
+        </div>
+        <div class="modalcolumn"onclick="currentSlide(6)">
+            <img class="demo" src="./Images/ruby-chocolate.jpg"
+            style="width:100%" alt="Chocolate Biscotti">
+        </div>
+        <div class="modalcolumn" onclick="currentSlide(5)">
+            <img class="demo" src="./Images/assorted-chocolate.jpg"
+            style="width:100%" alt="Chocolate Assortment">
+        </div>
+        <div class="modalcolumn" onclick="currentSlide(4)">
+            <img class="demo" src="./Images/biscotti-chocolate.jpg"
+            style="width:100%" alt="Ruby Chocolate">
+        </div>
+    </div>
+  </div>
+</div>
+
+    </body>
+</html>
